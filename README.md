@@ -1,8 +1,18 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Multi-steps form
 
-Currently, two official plugins are available:
+### This is a multi-steps form made with the following technologies:
+-HTML
+-Javascript
+-Tailwind library
+-React library
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This first asks the client their Budget and then their details which then concludes to final page.
+
+![Screenshot (11)](https://github.com/Vivekannad/multi-step-form/assets/156533468/84daf32e-a294-442a-93bc-530405033632)
+![Screenshot (12)](https://github.com/Vivekannad/multi-step-form/assets/156533468/6c3fed13-00f1-4949-8b06-c9a36635f3f9)
+![Screenshot (13)](https://github.com/Vivekannad/multi-step-form/assets/156533468/029aaf2f-ab27-4bde-b6c9-068c537357cb)
+
+## Deployment link:
+ [multi steps form](https://multireactform.netlify.app/)
+
