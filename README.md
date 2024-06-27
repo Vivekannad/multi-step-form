@@ -2,10 +2,10 @@
 # Multi-steps form
 
 ### This is a multi-steps form made with the following technologies:
--HTML
--Javascript
--Tailwind library
--React library
+- HTML
+- Javascript
+- Tailwind library
+- React library
 
 This first asks the client their Budget and then their details which then concludes to final page.
 
