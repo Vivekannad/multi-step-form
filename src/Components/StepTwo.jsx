@@ -29,7 +29,7 @@ const StepTwo = ({setNumber}) => {
     <>
         <h2 className='font-bold text-3xl'>Details</h2>
         <p>We're thrilled to have you make business with us. Please let us know the best way to reach you.</p>
-        <form>
+        <form netlify>
             <div className='min-w-full text-left my-3'>
                 <label htmlFor="name" >Name*</label>
                 <input type="text" name='name' className='block  w-full bg-gray-100 border-2 outline-none' value={inputFields.name} onChange={inputChangeHandler}/>
