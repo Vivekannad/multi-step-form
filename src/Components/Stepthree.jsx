@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Stepthree = ({setNumber}) => {
     const clickHandler = () => {
-        setNumber(1)
+        setNumber(1);
     }
   return (
     <>

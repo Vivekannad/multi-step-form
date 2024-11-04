@@ -5,8 +5,11 @@ import { MdOutlineCancel } from "react-icons/md";
 const Header = ({setNumber,number}) => {
     const backHandler = () => {
         if(number > 1){
-            setNumber((num) => num - 1 )
+            setNumber((num) => num - 1 );
         }
+    }
+    const exitHandler = () => {
+        setNumber(-1);
     }
   return (
     <>
@@ -15,7 +18,7 @@ const Header = ({setNumber,number}) => {
             <IoMdArrowBack/>
             <p>Go back</p>
         </div>
-        <div className='Exit mx-5 flex items-center space-x-1'>
+        <div className='Exit mx-5 flex items-center space-x-1 cursor-pointer' onClick={exitHandler}>
             <p>Exit</p>
             <MdOutlineCancel/>
         </div>
